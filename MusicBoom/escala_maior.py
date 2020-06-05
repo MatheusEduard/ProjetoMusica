@@ -2,7 +2,7 @@ def escala_maior(nota):
     notas = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B','C','C#','D','D#','E','F','F#','G','G#','A','A#','B','C','C#','D','D#','E','F','F#','G','G#','A','A#','B','C']
     escala = []
     for i in range(len(notas)-25):
-        if notas[i] == nota:
+        if notas[i] == nota and nota=="C":
             atual = notas[i]
             escala.append(atual)
             atual = notas[i+2]
@@ -11,7 +11,38 @@ def escala_maior(nota):
             escala.append(atual)
             atual = notas[i+5]
             escala.append(atual)
-            atual = notas[i+7]
+            atual = notas[i+7] 
+            escala.append(atual)
+            atual = notas[i+9]
+            escala.append(atual)
+            atual = notas[i+11]
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"2"
+            escala.append(atual)
+            atual = notas[i+16]+"2"
+            escala.append(atual)
+            atual = notas[i+17]+"2"
+            escala.append(atual)
+            atual = notas[i+19]+"2"
+            escala.append(atual)
+            atual = notas[i+21]+"2"
+            escala.append(atual)
+            atual = notas[i+23]+"2"
+            escala.append(atual)
+            atual = notas[i+24]+"2"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="C#":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2]
+            escala.append(atual)
+            atual = notas[i+4]
+            escala.append(atual)
+            atual = notas[i+5]
+            escala.append(atual)
+            atual = notas[i+7] 
             escala.append(atual)
             atual = notas[i+9]
             escala.append(atual)
@@ -32,6 +63,316 @@ def escala_maior(nota):
             atual = notas[i+23]+"2"
             escala.append(atual)
             atual = notas[i+24]+"2"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="D":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2]
+            escala.append(atual)
+            atual = notas[i+4]
+            escala.append(atual)
+            atual = notas[i+5]
+            escala.append(atual)
+            atual = notas[i+7] 
+            escala.append(atual)
+            atual = notas[i+9]
+            escala.append(atual)
+            atual = notas[i+11] +"2"
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"2"
+            escala.append(atual)
+            atual = notas[i+16]+"2"
+            escala.append(atual)
+            atual = notas[i+17]+"2"
+            escala.append(atual)
+            atual = notas[i+19]+"2"
+            escala.append(atual)
+            atual = notas[i+21]+"2"
+            escala.append(atual)
+            atual = notas[i+23]+"2"
+            escala.append(atual)
+            atual = notas[i+24]+"2"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="D#":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2]
+            escala.append(atual)
+            atual = notas[i+4]
+            escala.append(atual)
+            atual = notas[i+5]
+            escala.append(atual)
+            atual = notas[i+7] 
+            escala.append(atual)
+            atual = notas[i+9] +"2"
+            escala.append(atual)
+            atual = notas[i+11] +"2"
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"2"
+            escala.append(atual)
+            atual = notas[i+16]+"2"
+            escala.append(atual)
+            atual = notas[i+17]+"2"
+            escala.append(atual)
+            atual = notas[i+19]+"2"
+            escala.append(atual)
+            atual = notas[i+21]+"2"
+            escala.append(atual)
+            atual = notas[i+23]+"2"
+            escala.append(atual)
+            atual = notas[i+24]+"2"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="E":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2]
+            escala.append(atual)
+            atual = notas[i+4]
+            escala.append(atual)
+            atual = notas[i+5]
+            escala.append(atual)
+            atual = notas[i+7] 
+            escala.append(atual)
+            atual = notas[i+9] +"2"
+            escala.append(atual)
+            atual = notas[i+11] +"2"
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"2"
+            escala.append(atual)
+            atual = notas[i+16]+"2"
+            escala.append(atual)
+            atual = notas[i+17]+"2"
+            escala.append(atual)
+            atual = notas[i+19]+"2"
+            escala.append(atual)
+            atual = notas[i+21]+"2"
+            escala.append(atual)
+            atual = notas[i+23]+"2"
+            escala.append(atual)
+            atual = notas[i+24]+"2"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="F":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2]
+            escala.append(atual)
+            atual = notas[i+4]
+            escala.append(atual)
+            atual = notas[i+5]
+            escala.append(atual)
+            atual = notas[i+7] +"2"
+            escala.append(atual)
+            atual = notas[i+9] +"2"
+            escala.append(atual)
+            atual = notas[i+11] +"2"
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"2"
+            escala.append(atual)
+            atual = notas[i+16]+"2"
+            escala.append(atual)
+            atual = notas[i+17]+"2"
+            escala.append(atual)
+            atual = notas[i+19]+"2"
+            escala.append(atual)
+            atual = notas[i+21]+"2"
+            escala.append(atual)
+            atual = notas[i+23]+"2"
+            escala.append(atual)
+            atual = notas[i+24]+"2"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="F#":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2]
+            escala.append(atual)
+            atual = notas[i+4]
+            escala.append(atual)
+            atual = notas[i+5]
+            escala.append(atual)
+            atual = notas[i+7] +"2"
+            escala.append(atual)
+            atual = notas[i+9] +"2"
+            escala.append(atual)
+            atual = notas[i+11] +"2"
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"2"
+            escala.append(atual)
+            atual = notas[i+16]+"2"
+            escala.append(atual)
+            atual = notas[i+17]+"2"
+            escala.append(atual)
+            atual = notas[i+19]+"2"
+            escala.append(atual)
+            atual = notas[i+21]+"2"
+            escala.append(atual)
+            atual = notas[i+23]+"2"
+            escala.append(atual)
+            atual = notas[i+24]+"2"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="G":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2]
+            escala.append(atual)
+            atual = notas[i+4]
+            escala.append(atual)
+            atual = notas[i+5] +"2"
+            escala.append(atual)
+            atual = notas[i+7] +"2"
+            escala.append(atual)
+            atual = notas[i+9] +"2"
+            escala.append(atual)
+            atual = notas[i+11] +"2"
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"2"
+            escala.append(atual)
+            atual = notas[i+16]+"2"
+            escala.append(atual)
+            atual = notas[i+17]+"3"
+            escala.append(atual)
+            atual = notas[i+19]+"3"
+            escala.append(atual)
+            atual = notas[i+21]+"3"
+            escala.append(atual)
+            atual = notas[i+23]+"3"
+            escala.append(atual)
+            atual = notas[i+24]+"3"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="G#":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2]
+            escala.append(atual)
+            atual = notas[i+4] +"2"
+            escala.append(atual)
+            atual = notas[i+5] +"2"
+            escala.append(atual)
+            atual = notas[i+7] +"2"
+            escala.append(atual)
+            atual = notas[i+9] +"2"
+            escala.append(atual)
+            atual = notas[i+11] +"2"
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"2"
+            escala.append(atual)
+            atual = notas[i+16]+"3"
+            escala.append(atual)
+            atual = notas[i+17]+"3"
+            escala.append(atual)
+            atual = notas[i+19]+"3"
+            escala.append(atual)
+            atual = notas[i+21]+"3"
+            escala.append(atual)
+            atual = notas[i+23]+"3"
+            escala.append(atual)
+            atual = notas[i+24]+"3"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="A":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2]
+            escala.append(atual)
+            atual = notas[i+4] +"2"
+            escala.append(atual)
+            atual = notas[i+5] +"2"
+            escala.append(atual)
+            atual = notas[i+7] +"2"
+            escala.append(atual)
+            atual = notas[i+9] +"2"
+            escala.append(atual)
+            atual = notas[i+11] +"2"
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"2"
+            escala.append(atual)
+            atual = notas[i+16]+"3"
+            escala.append(atual)
+            atual = notas[i+17]+"3"
+            escala.append(atual)
+            atual = notas[i+19]+"3"
+            escala.append(atual)
+            atual = notas[i+21]+"3"
+            escala.append(atual)
+            atual = notas[i+23]+"3"
+            escala.append(atual)
+            atual = notas[i+24]+"3"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="A#":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2] +"2"
+            escala.append(atual)
+            atual = notas[i+4] +"2"
+            escala.append(atual)
+            atual = notas[i+5] +"2"
+            escala.append(atual)
+            atual = notas[i+7] +"2"
+            escala.append(atual)
+            atual = notas[i+9] +"2"
+            escala.append(atual)
+            atual = notas[i+11] +"2"
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"3"
+            escala.append(atual)
+            atual = notas[i+16]+"3"
+            escala.append(atual)
+            atual = notas[i+17]+"3"
+            escala.append(atual)
+            atual = notas[i+19]+"3"
+            escala.append(atual)
+            atual = notas[i+21]+"3"
+            escala.append(atual)
+            atual = notas[i+23]+"3"
+            escala.append(atual)
+            atual = notas[i+24]+"3"
+            escala.append(atual)
+        elif notas[i] == nota and nota=="B":
+            atual = notas[i]
+            escala.append(atual)
+            atual = notas[i+2] +"2"
+            escala.append(atual)
+            atual = notas[i+4] +"2"
+            escala.append(atual)
+            atual = notas[i+5] +"2"
+            escala.append(atual)
+            atual = notas[i+7] +"2"
+            escala.append(atual)
+            atual = notas[i+9] +"2"
+            escala.append(atual)
+            atual = notas[i+11] +"2"
+            escala.append(atual)
+            atual = notas[i+12] +"2"
+            escala.append(atual)
+            atual = notas[i+14]+"3"
+            escala.append(atual)
+            atual = notas[i+16]+"3"
+            escala.append(atual)
+            atual = notas[i+17]+"3"
+            escala.append(atual)
+            atual = notas[i+19]+"3"
+            escala.append(atual)
+            atual = notas[i+21]+"3"
+            escala.append(atual)
+            atual = notas[i+23]+"3"
+            escala.append(atual)
+            atual = notas[i+24]+"3"
             escala.append(atual)
     return escala
             

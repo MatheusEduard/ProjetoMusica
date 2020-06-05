@@ -17,3 +17,10 @@ for e in notas.keys():
 tom1 = tom1 - 0.5        
         
 print(tom1)
+
+notas = ["batata","aaa"]
+for x in range(len(notas)):
+    notas.append("batatinha")
+    
+    
+print(*notas)
